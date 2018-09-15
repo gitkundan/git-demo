@@ -1,5 +1,11 @@
-This is a third file
+Sub TextBoxChange
 
+set mybox = ActiveDocument.GetSheetObject("TB03")
 
-some changes
+set mbp = mybox.GetProperties
 
+mbp.Layout.Frame.Name.v = "World"
+
+mybox.SetProperties mbp
+
+End Sub
