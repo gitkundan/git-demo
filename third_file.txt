@@ -1,11 +1,2 @@
-Sub TextBoxChange
+_#yY?,D*XK8P)LceE%&6Y
 
-set mybox = ActiveDocument.GetSheetObject("TB03")
-
-set mbp = mybox.GetProperties
-
-mbp.Layout.Frame.Name.v = "World"
-
-mybox.SetProperties mbp
-
-End Sub
